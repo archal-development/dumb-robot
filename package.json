@@ -1,0 +1,30 @@
+{
+  "name": "dumbRobot",
+  "version": "00000001",
+  "description": "Bot",
+  "main": "node index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnIdiotsGuide/guidebot.git"
+  },
+  "author": "Tom Chilvers",
+  "license": "None",
+  "bugs": {
+    "url": "https://bugs.archal.dev"
+  },
+  "homepage": "https://archal.dev",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "enmap": "^4.8.1",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "express": "^4.16.4"
+  }
+}
